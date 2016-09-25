@@ -1,0 +1,21 @@
+{
+  "name": "typeinit",
+  "version": "1.0.0",
+  "description": "basic project in type + express + mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "gulp && node build/server"
+  },
+  "author": "edu-ricardo",
+  "license": "MIT",
+  "repository": "https://github.com/edu-ricardo/typeinit.git",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.1",
+    "mongoose": "^4.6.1",
+    "typescript": "^2.0.3"
+  }
+}
